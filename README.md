@@ -2,6 +2,14 @@
 TEAMMEMBER: Bowen Qiu, Aolin Yang
 Game name: 7 Joker 5 2 3
 
+## Proposal
+*The original name of this game is called "7, Joker, 5, 2, 3". It can be played by 2 to 5 people. I would make a simple version of it which allows one player to play with the AI.
+The rule is written on the name: 7 is the biggest number, then Joker, then 5, 2, and 3. After 3, the order would be Ace, Queen, King, Jack, 10, 9, 8, 6, and 4. The order of suits is Spade, Heart, Club, and Diamond.
+Number 5, 10, and King are scores, where 5 is score of 5, 10 and King are score of 10.
+At the beginning, each player draw 5 cards, then starts from one player playing cards. Players can play singles, doubles, triples, quadruple, straights (at least 3 cards, like 3 4 5), flush, or full house. After one player plays, the other player will play a bigger card(s) to beat your opponent. For example, player one plays Spade 3 and Diamond 3, the other player should play something bigger, but with the same number of cards as player one plays, which is 2 in this case.
+The round goes on until one player cannot play bigger cards, then the other player will gather all scores played in this round if there are any. Then both players draw cards until they have 5 cards in their hands. The game ends when one player gathered more than half of the scores, which is score of 30.*
+
+
 ## Introduction:
 This is a traditional Chinese card game, as the name discribed, the decreasing order of cards is (7 joker 5 2 3 ace king queen jack 10 9 8 6 4). Also there are 3 score cards including 5, 10 and king where 5 has score of 5 but 10 and king has score of 10. 
 

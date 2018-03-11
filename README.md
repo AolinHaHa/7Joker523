@@ -2,16 +2,16 @@ SYMBOLIC PROGRAMMING FINAL PROJECT
 TEAMMEMBER: Bowen Qiu, Aolin Yang
 Game name: 7 Joker 5 2 3
 
-#Introduction:
+# Introduction:
 This is a traditional Chinese card game, as the name discribed, the decreasing order of cards is (7 joker 5 2 3 ace king queen jack 10 9 8 6 4). Also there are 3 score cards including 5, 10 and king where 5 has score of 5 but 10 and king has score of 10. 
 
-#Evaluating:
+# Evaluating:
 Each round if any score card appearing on the cardpool, players are supposed to try win the round. The round-winner will have the score counted into their master score, and the final winner is the one who has higher master score. Dealer will offer new card to players after each round ended to make sure every round players has 5 cards on hand.
 
 Composition: Flush - 3 of a kind - pair - single
 Tie: compare suits, the decreasing order of suits is (spade heart club diamond red black)
 
-#Tech used:
+# Tech used:
 we used closure to create the shuffled deck, and using functional programming to check the card type(check if the cards are pairs or singles or flush). Also the algorithms that we used to comparing different sets of cards are based on the idea of member function. Moreover, this project is an great lisp object-oriented experience, we use it for creating player and dealer classes. 
 
 #Functions:

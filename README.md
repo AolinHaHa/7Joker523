@@ -28,7 +28,9 @@ we used closure to create the shuffled deck, and using functional programming to
 ### get-largest-card (cards)
 	Get the largest representing card
 ### play (player cardIndex)
-	Frist parameter is the current player, and the cardIndex is the index of the chosen card. The function will return the length of card that player put, and the max-value card in the set. For instance:
+	Frist parameter is the current player, and the cardIndex is the index of the 
+	chosen card. The function will return the length of card that player put, 
+	and the max-value card in the set. For instance:
 	input: (show-hand human-player)
 	output: ([10 of SPADE] [ACE of CLUB] [9 of HEART] [6 of SPADE] [QUEEN of DIAMOND])
 	input: (play human-player '(1))
